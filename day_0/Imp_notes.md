@@ -17,9 +17,17 @@
 
 ## Note # 3: int main()
 
-> - ***int main()*** is the ***entry point*** of the program.
+ - ***int main()*** is the ***entry point*** of the program.
+
 > - ***main()*** is a ***function*** that is used to start the program.
-> - ***int *** is the ***data type*** of the ***return value*** of the ***main()*** function.
+> - main( ) is the name of function.
+> - The ***()*** written with main make it a ***function***, without paraenthesis it will not a function.
+
+
+
+> - ***int*** is the ***data type*** of the ***return value*** of the ***main()*** function.
+> - It means that if the *program is executed successfully*, **it will return a value** of which data type is int.
+
 ### ***For Example:***
                 #include <iostream>
 
@@ -39,3 +47,42 @@
 > - ***return0;*** is used to end the program.
 > - ***return0;*** means that if the program is executed successfully, it will return a value of 0.
 
+
+## Note # 6: semicolon " ; "
+
+> - ***semicolon*** is used to separate different statements in the program.
+
+### For example:
+
+            int main()
+            {
+                cout << "Hello, World! " <<endl;
+                cout << "My Name is Noor. " <<endl;
+                return 0;
+            };
+
+## Note # 7: " using namespace std; "
+
+> - ***using namespace std;*** is used to use the ***standard library*** functions and variables in our program.
+> Here Standar library is " iostream ".
+
+### For example:
+
+
+            #include <iostream>
+
+            using namespace std;
+
+            int main()
+            {
+                cout << "Hello, World! " <<endl;
+                cout << "My Name is Noor. " <<endl;
+                return 0;
+            };
+
+## Note # Double Quotes " "
+
+> - ***Double Quotes*** is used to enclose the text in the program.
+> - Text/data written in double qoutes is called ***string***.
+> - ***string*** is a ***data type***.
+> - ***Spaces*** written in double quotes is counted and also print in output.
